@@ -5,6 +5,7 @@ import { About } from "@/section/About";
 import { Projects } from "@/section/Projects";
 import { Experience } from "@/section/Experience";
 import { Contact } from "@/section/Contact";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Contact />
       </main>
       <Footer />
+      <Analytics />
     </div>
   );
 }
